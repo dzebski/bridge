@@ -1,0 +1,13 @@
+<div
+  class="circle"
+  *ngIf="isRefreshing"
+></div>
+
+<div [class.content-loading]="isRefreshing">
+  <h5>Last sprint</h5>
+  <section>
+    <div class="widget-icon">Task</div>
+    <div class="value">Planned: <strong>25</strong></div>
+    <div class="value">Achieved: <strong>20</strong></div>
+  </section>
+</div>

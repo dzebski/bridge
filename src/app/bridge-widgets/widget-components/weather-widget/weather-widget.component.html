@@ -1,0 +1,11 @@
+<div
+  class="circle loader"
+  *ngIf="isLoading"
+></div>
+
+
+<h5>Current weather</h5>
+<section [class.loading]="isLoading">
+  <div class="widget-icon">Sunny</div>
+  <div class="value">+25</div>
+</section>
